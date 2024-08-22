@@ -21,7 +21,7 @@ export const counterSlice = createSlice({
       }
 
       else{
-        state.value= state.value + data.payload
+        state.value = state.value + data.payload
       }
       
     },
@@ -32,13 +32,13 @@ export const counterSlice = createSlice({
       }
 
       else{
-        state.value -= data.payload         // or state.value= state.value - data.payload      
+        state.value -= data.payload         // or state.value = state.value - data.payload      
       }
         
     },
 
     reset:(state)=>{
-        state.value= 0;
+        state.value = 0;
     }
   }
 
